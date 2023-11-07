@@ -1,0 +1,6 @@
+{
+    "program": "votes.aleo",
+    "version": "1.0.0",
+    "description": "Aleo program facilitates the creation, registration, and voting on proposals by leveraging zero-knowledge proofs to maintain the confidentiality of voters while ensuring the integrity of the voting process",
+    "license": "MIT"
+}

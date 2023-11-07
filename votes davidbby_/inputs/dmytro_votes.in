@@ -1,0 +1,34 @@
+// The program input for votes/src/main.leo
+[propose]
+public info: DetailedProposal = DetailedProposal{
+    title: Title{
+        data0: 7202017465u128;
+        data1: 0u128;
+        data2: 0u128;
+        data3: 0u128;
+    },
+    desc: Description {
+        data0: 107803784321478234867475435u128,
+        data1: 0u128,
+        data2: 0u128,
+        data3: 0u128,
+    },
+    content: 1field,
+    proposer: aleo13ssze66adjjkt795z9u5wpq8h6kn0y2657726h4h3e3wfnez4vqsm3008q
+};
+
+[register_proposal]
+public pid: field =  1field;
+public voter: address = aleo17vy26rpdhqx4598y5gp7nvaa9rk7tnvl6ufhvvf4calsrrqdaqyshdsf5z;
+
+[agree]
+ticket: VotingTicket = VotingTicket {
+    owner: aleo13ssze66adjjkt795z9u5wpq8h6kn0y2657726h4h3e3wfnez4vqsm3008q,
+    pid: 1field,
+};
+
+[disagree]
+ticket: VotingTicket = VotingTicket {
+    owner: aleo13ssze66adjjkt795z9u5wpq8h6kn0y2657726h4h3e3wfnez4vqsm3008q,
+    pid: 1field,
+};
